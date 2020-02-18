@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}会員登録完了{% endblock title %}
+
+{% block content %}
+<div class="head p-5">
+    <div class="spot-list p-3 font-deep">
+        {% if user.is_authenticated %}
+        <script type="text/javascript">
+            window.location.href = '/';
+        </script>
+        {% else %}
+        <h1>ようこそ</h1>
+        <p>会員登録に成功しました。<a href="/accounts/login">ログイン画面へ</a></p>
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}

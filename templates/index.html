@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}あなたにぴったりな街に住もう{% endblock title %}
+{% block content %}
+
+<!-- <div class="head">
+  <div class="head-container">
+    <h1 class="logo">sheori</h1>
+  </div>
+</div> -->
+<div id ="home" class="head">
+  <div id="course" class="contents font-light">
+    <div class="col-12 narrow text-center logo">
+      <img class="mb-4" src="{% static 'sheori/img/logo-main.png' %}">
+      <p class="lead">〜『たび』をシェアするみんなの『しおり』〜</p>
+    </div>
+  </div>
+</div>
+<div class="about px-5">
+  <div class="contents font-deep">
+    <h2>− s h e o r i って何？ −</h2>
+    <h3>メインテキストメインテキストメインテキストメインテキストメインテキスト</h3>
+    <div class="row pb-4 pt-4">
+      <div class="col-2 picture">
+        <p>画像</p>
+      </div>
+      <div class="col-2 picture bag-deep">
+        <p>画像</p>
+      </div>
+      <div class="col-2 picture ">
+        <p>画像</p>
+      </div>
+      <div class="col-2 picture bag-deep">
+        <p>画像</p>
+      </div>
+      <div class="col-2 picture">
+        <p>画像</p>
+      </div>
+      <div class="col-2 picture bag-deep">
+        <p>画像</p>
+      </div>
+    </div>
+    <p>メインテキストメインテキストメインテキストメインテキストメインテキスト<br>メインテキストメインテキストメインテキストメインテキストメインテキストメインテキスト<br>メインテキストメインテキストメインテキストメインテキストメインテキスト<br>メインテキストメインテキストメインテキストメインテキスト</p>
+  </div>
+</div>
+<div class="how-to px-5">
+  <div class="contents font-deep">
+    <h2>− s h e o r i の使い方 −</h2>
+    <div class="row">
+      <div class="col-4">
+        <div class="step mx-2 my-2">
+          <h3>Step1</h3>
+          <img src="{% static 'sheori/img/search.jpg' %}">
+          <p>一緒に行く仲間、期間、場所、コンセプトを入力して検索しよう！</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="step mx-2 my-2">
+          <h3>Step2</h3>
+          <img src="{% static 'sheori/img/planning.jpg' %}">
+          <p>あなたにオススメのコースを自動で作成するよ！そのままでもよし、自分達好みにカスタマイズしてもよし、あなたにぴったりの『しおり』を作ろう！</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="step mx-2 my-2">
+          <h3>Step3</h3>
+          <img src="{% static 'sheori/img/share.jpg' %}">
+          <p>旅行から帰ったら満足度を入力してみんなにシェアしよう！</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- /.container -->
+
+
+{% endblock content %}
+
+<!-- 結果の確認
+それでは、実際にrunserverして http://127.0.0.1:8000/ にアクセスし、画面を確認してみましょう。 -->
+
+(env_django) PS \sheori_proj> python manage.py runserver
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 16, 2019 - 15:10:18
+Django version 2.2.1, using settings 'sheori_proj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
