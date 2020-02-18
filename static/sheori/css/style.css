@@ -1,0 +1,253 @@
+/* ================================== all ================================== */
+body {
+  font-family: 'TsukuBRdGothic-Regular', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container{
+  min-height: 720px;
+}
+
+.contents {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.contents h1 {
+  font-size: 4rem;
+  letter-spacing: 30px;
+  padding-bottom: 1rem;
+}
+
+.contents h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.contents h3 {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.contents p {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+
+.border-b {
+   padding: 0.5rem;
+   border-bottom: solid 1px #21496F;
+ }
+
+ .border-b h4 {
+   margin: 0!important;
+ }
+
+.header-img {
+  height: 2rem;
+  width: auto;
+}
+
+/* ================================== header footer ================================== */
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.font-light {
+  color: #BEE0FF;
+}
+
+.font-deep {
+  color: #21496F;
+}
+
+.bag-light {
+  background-color: #BEE0FF;
+  color: #21496F;
+}
+
+.bag-deep {
+  background-color: #21496F;
+  color: #BEE0FF;
+}
+
+.logo {
+  letter-spacing: 15px;
+}
+
+.logo img {
+  height: 6rem;
+  width: auto;
+}
+
+/* ================================== main-page head ================================== */
+.head {
+  min-height: 1000px;
+  background-image: url(../img/top-main-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.head-container {
+  height: 1080px;
+  width: auto;
+}
+
+.contents .logo {
+  text-align: center;
+  padding-top: 350px;
+  text-shadow: 1px 2px 3px #808080;
+}
+
+
+/* ================================== main-page about ================================== */
+.about{
+  height: auto;
+  background-color: white;
+}
+
+.picture {
+  height: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* ================================== main-page how ================================== */
+.how-to {
+  height: 500px;
+  background-color: rgba(223, 235, 247, 0.7);
+}
+
+.how-to .contents {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.step img{
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  margin: auto;
+}
+
+.step p{
+  width: 300px;
+  padding-top: 3rem;
+  margin: auto;
+}
+
+/* ================================== main-page how ================================== */
+.spot-list, .recommend-form, .recommend-result, .recommend_result {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 30px;
+}
+
+/* ================================== spot_list page ================================== */
+.a-light {
+  color: #BEE0FF;
+  text-decoration: none;
+  padding: 1px;
+}
+
+.a-light:hover {
+  color: white;
+  padding: 1px;
+  border-bottom: solid 1px white;
+}
+
+.table-bordered td, th {
+  border: 1px solid #8493a2!important;
+  text-align: center;
+}
+
+/* ================================== spot_list page ================================== */
+.recommend-label {
+  display: inline-block;
+}
+
+.form-group label {
+  display: block;
+}
+
+.list-table tr {
+  height: 75px;
+
+}
+
+/* ================================== recommend_form page ================================== */
+.label-inner {
+  text-align: center;
+}
+.label-inner select, .label-inner input {
+  height: 2rem;
+  text-align: center;
+}
+
+/* ================================== recommend_result page ================================== */
+.recommend-route {
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.circle {
+  background-color: #21496F;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+.line {
+  display:inline-block;
+  width: 5px;
+  height: 100px;
+  border-left: dashed 5px #21496F;
+}
+
+.spot-title {
+  border-bottom: solid 1px #21496F;
+  font-size: 1.5rem;
+}
+
+.route-time {
+  height: 100px;
+  line-height: 100px;
+}
+
+.route-time p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.route-spot-detail {
+  font-size: 15px;
+}
+
+.map img {
+  object-fit: cover;
+  width: 100%;
+  box-shadow: 2px 2px 4px;
+}
